@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552320472536.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "852952723",
+    "id" : "36FF0059",
+    "lastKnownWriteTime" : 1552306462,
+    "last_content_update" : 1552306462,
+    "path" : "~/GitHub/EvolTA/R/evaluation_operators.R",
+    "project_path" : "R/evaluation_operators.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
