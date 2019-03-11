@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3612216885",
+    "hash" : "2818718114",
     "id" : "504F39B0",
-    "lastKnownWriteTime" : 1552318786,
-    "last_content_update" : 1552318786129,
+    "lastKnownWriteTime" : 1552324546,
+    "last_content_update" : 1552324546800,
     "path" : "~/GitHub/EvolTA/R/neural_network_selector.R",
     "project_path" : "R/neural_network_selector.R",
     "properties" : {
-        "cursorPosition" : "8,0",
+        "cursorPosition" : "17,0",
         "scrollLine" : "0"
     },
     "relative_order" : 4,

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552321842471.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AA5983D9",
+    "lastKnownWriteTime" : 1552323126,
+    "last_content_update" : 1552323126444,
+    "path" : "~/GitHub/EvolTA/R/gggp_generation_operators.R",
+    "project_path" : "R/gggp_generation_operators.R",
+    "properties" : {
+        "cursorPosition" : "8,31",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

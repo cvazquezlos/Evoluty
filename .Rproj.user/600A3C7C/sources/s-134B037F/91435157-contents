@@ -1,6 +1,0 @@
-individual <- setRefClass("nnIndividual", fields = list(id = integer,
-                                                        architecture = character,
-                                                        evaluated = boolean,
-                                                        loss = double,
-                                                        metric = double,
-                                                        model = character))
