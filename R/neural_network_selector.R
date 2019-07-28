@@ -1,7 +1,6 @@
-data <- NULL
-
 kBaseCharacter <- ""
 kBaseNumeric <- 0.000000
+kSplitCriteria <- c(train = 0.7, validation = 0.2, test = 0.1)
 
 setClass("NeuralNetwork", representation(id = "numeric", architecture = "character",
                                          evaluated = "logical", loss = "numeric",
@@ -39,9 +38,12 @@ Main <- function(population.size, mode, data) {
   population.individuals <- lapply(population.size, function(x) {
     new("NeuralNetwork", id = x, architecture = CleanArchitecture(Standard(1)))
   })
-
+  n <- nrow(data)
+  sample(cut(
+    seq(n),
+    nrow(data)*cumsum(c(0, kSplitCriteria)),
+    labels = names(kSplitCriteria)
+  ))
 }
-
-
 # BASE: http://r-pkgs.had.co.nz/package.html
 # http://r-pkgs.had.co.nz/r.html

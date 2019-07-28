@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "504F39B0",
-    "lastKnownWriteTime" : 1552392249,
-    "last_content_update" : 1552392249019,
+    "lastKnownWriteTime" : 1552468653,
+    "last_content_update" : 1552468653645,
     "path" : "~/GitHub/EvolTA/R/neural_network_selector.R",
     "project_path" : "R/neural_network_selector.R",
     "properties" : {
-        "cursorPosition" : "33,12",
-        "scrollLine" : "9"
+        "cursorPosition" : "28,3",
+        "scrollLine" : "15"
     },
     "relative_order" : 3,
     "source_on_save" : false,
