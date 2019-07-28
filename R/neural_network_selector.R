@@ -22,13 +22,17 @@ Evaluation <- function(individual, mode, input, output) {
   invisible(lapply(hidden.count, function(x) model %>% keras::layer_dense(units = x, activation = "relu")))
   if (mode == 0) {
     model %>% keras::layer_dense(untis = output, activation = "softmax")
-    model %>% keras::compile(optimizer = "",
+    model %>% keras::compile(optimizer = "Adam",
                              loss = "categorical_crossentropy",
                              metrics = c("accuracy"))
   } else {
     # Regression.
   }
-  history <-model %>% keras::fit()
+  history <- model %>% keras::fit(X_train, y_train, validation_data = (X_validation, y_validation), epochs = , batch_size =, verbose = 0, callbacks =)
+  history <- model %>% fit(rbind(X_train, X_validation), rbind(y_train, y_validation), validation_split = 0.235294, epochs = 500, batch_size = 150, verbose = 0,
+                           callbacks = list(
+                             callback_early_stopping(monitor = "val_loss", patience = 50, verbose = 0, mode ="auto")
+                           ))
 }
 
 Main <- function(population.size, mode, data) {
